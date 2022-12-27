@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+  }
+  p
+  {
+    color:rgb(120, 8, 8);
+    font-size:30px;
+     font-weight:bold; 
+     text-decoration: underline; 
+     text-decoration-color: black;
+     text-decoration-style:dotted;
+  }
+  h1{
+    color:aqua;
+    text-transform: uppercase;
+    margin: 30px;
+    margin: 30px 10px;
+    margin: 30px 30px 30px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    /*background: black;*/
+    background-image: linear-gradient(to top,red,orange,yellow,green,blue,black);
+    background-image: radial-gradient(green,blue,red,pink,orange,indigo,white,black,yellow);
+  }
+  .box1
+  {
+    width: 1000px;
+    height: 1000px;
+    background: url("../bg.webp");
+    background-size: cover;
+
+  }
+  .flex-section--list
+  {
+    display: flex;
+  }
